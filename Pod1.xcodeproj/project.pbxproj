@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492618731F32E620003A8458 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492618721F32E620003A8458 /* FantasticView.swift */; };
 		492B506C1F321944008C3E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B506B1F321944008C3E4A /* AppDelegate.swift */; };
 		492B506E1F321944008C3E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B506D1F321944008C3E4A /* ViewController.swift */; };
 		492B50711F321944008C3E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492B506F1F321944008C3E4A /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		492B50761F321944008C3E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492B50741F321944008C3E4A /* LaunchScreen.storyboard */; };
 		492B50811F321945008C3E4A /* Pod1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B50801F321945008C3E4A /* Pod1Tests.swift */; };
 		492B508C1F321946008C3E4A /* Pod1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B508B1F321946008C3E4A /* Pod1UITests.swift */; };
+		492B509A1F321A54008C3E4A /* Pod1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B50991F321A54008C3E4A /* Pod1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		492618721F32E620003A8458 /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 		492B50681F321944008C3E4A /* Pod1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pod1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492B506B1F321944008C3E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		492B506D1F321944008C3E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		492B50871F321945008C3E4A /* Pod1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pod1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492B508B1F321946008C3E4A /* Pod1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod1UITests.swift; sourceTree = "<group>"; };
 		492B508D1F321946008C3E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492B50991F321A54008C3E4A /* Pod1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pod1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				492B506B1F321944008C3E4A /* AppDelegate.swift */,
+				492B50991F321A54008C3E4A /* Pod1.swift */,
 				492B506D1F321944008C3E4A /* ViewController.swift */,
+				492618721F32E620003A8458 /* FantasticView.swift */,
 				492B506F1F321944008C3E4A /* Main.storyboard */,
 				492B50721F321944008C3E4A /* Assets.xcassets */,
 				492B50741F321944008C3E4A /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				492B506E1F321944008C3E4A /* ViewController.swift in Sources */,
+				492B509A1F321A54008C3E4A /* Pod1.swift in Sources */,
+				492618731F32E620003A8458 /* FantasticView.swift in Sources */,
 				492B506C1F321944008C3E4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				492B50921F321946008C3E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492B50931F321946008C3E4A /* Build configuration list for PBXNativeTarget "Pod1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				492B50951F321946008C3E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492B50961F321946008C3E4A /* Build configuration list for PBXNativeTarget "Pod1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				492B50981F321946008C3E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
